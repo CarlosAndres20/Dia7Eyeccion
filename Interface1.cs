@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Dia7Eyeccion
 {
-    interface Interface1
+    interface IArma
     {
+        void Disparar(string nombre);
     }
 }
